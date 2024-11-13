@@ -1,0 +1,26 @@
+API	endpoint	exception
+audittrail	GET | /audittrail/v1/audittrail/{query_execution_id}/download	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Audittrail_Audittrail_audittrail_v1_audittrail_query_execution_id_download_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7179E38A5+3004357]
+	(No symbol) [0x00007FF717679970]
+	(No symbol) [0x00007FF71752582A]
+	(No symbol) [0x00007FF717575B8E]
+	(No symbol) [0x00007FF717575E7C]
+	(No symbol) [0x00007FF7175BEC27]
+	(No symbol) [0x00007FF71759BC1F]
+	(No symbol) [0x00007FF7175BBA4C]
+	(No symbol) [0x00007FF71759B983]
+	(No symbol) [0x00007FF717567628]
+	(No symbol) [0x00007FF717568791]
+	GetHandleVerifier [0x00007FF717A0A00D+3161901]
+	GetHandleVerifier [0x00007FF717A5E060+3506048]
+	GetHandleVerifier [0x00007FF717A5400D+3465005]
+	GetHandleVerifier [0x00007FF7177D0EEB+830987]
+	(No symbol) [0x00007FF71768467F]
+	(No symbol) [0x00007FF7176809D4]
+	(No symbol) [0x00007FF717680B6D]
+	(No symbol) [0x00007FF717670149]
+	BaseThreadInitThunk [0x00007FFC0FA97374+20]
+	RtlUserThreadStart [0x00007FFC108BCC91+33]
+"
