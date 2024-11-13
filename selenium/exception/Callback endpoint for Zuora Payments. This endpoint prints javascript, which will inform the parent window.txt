@@ -1,5 +1,5 @@
-API	endpoint	exception
-ecommerce	GET | /ecommerce/v1/zuora/callback	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Zuora_Zuora_ecommerce_v1_zuora_callback_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
+service	API	endpoint	exception
+ecommerce	Callback endpoint for Zuora Payments. This endpoint prints javascript, which will inform the parent window	GET | /ecommerce/v1/zuora/callback	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Zuora_Zuora_ecommerce_v1_zuora_callback_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
   (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
 	GetHandleVerifier [0x00007FF7179E38A5+3004357]

@@ -1,5 +1,5 @@
-API	endpoint	exception
-report	GET | /report/v1/branch_dashboard_enrollment/{id}/export/{type}	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-BranchDashboardEnrollment_BranchDashboardEnrollment_report_v1_branch_dashboard_enrollment_id_export_type_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
+service	API	endpoint	exception
+report	List Of Enrollments For Current Branch And Children	GET | /report/v1/branch_dashboard_enrollment/{id}/export/{type}	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-BranchDashboardEnrollment_BranchDashboardEnrollment_report_v1_branch_dashboard_enrollment_id_export_type_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
   (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
 	GetHandleVerifier [0x00007FF7179E38A5+3004357]

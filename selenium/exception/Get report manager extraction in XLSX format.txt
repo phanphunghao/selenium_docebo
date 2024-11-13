@@ -1,5 +1,5 @@
-API	endpoint	exception
-analytics	GET | /analytics/v1/manager/report/{report_type_code}/{query_execution_id}/xls	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Manager_get_analytics_v1_manager_report_report_type_code_query_execution_id_xls_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
+service	API	endpoint	exception
+analytics	Get report manager extraction in XLSX format	GET | /analytics/v1/manager/report/{report_type_code}/{query_execution_id}/xls	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Manager_get_analytics_v1_manager_report_report_type_code_query_execution_id_xls_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
   (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
 	GetHandleVerifier [0x00007FF7179E38A5+3004357]

@@ -1,5 +1,5 @@
-API	endpoint	exception
-audittrail	GET | /audittrail/v1/audittrail/{query_execution_id}/download	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Audittrail_Audittrail_audittrail_v1_audittrail_query_execution_id_download_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
+service	API	endpoint	exception
+audittrail	DownloadAction Audit Trail Logs	GET | /audittrail/v1/audittrail/{query_execution_id}/download	"Message: no such element: Unable to locate element: {""method"":""xpath"",""selector"":""//div[@id=""sample-Audittrail_Audittrail_audittrail_v1_audittrail_query_execution_id_download_succes""]/div[@class=""snippet""]/*/code[@class=""json""]""}
   (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
 	GetHandleVerifier [0x00007FF7179E38A5+3004357]

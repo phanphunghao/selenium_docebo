@@ -68,14 +68,20 @@ for xpath in xpaths:
                         for col in df.columns.values:
                             data.append([
                                             service_name
+                                            ,api.text
                                             ,enpoint_method.text + " | " + enpoint_path.text
                                             ,col
                                         ])
-                        create_df = pd.DataFrame(data, columns=["API", "endpoint", "parsing"])
+                        create_df = pd.DataFrame(data, columns=["service", "API", "endpoint", "parsing"])
                         print(create_df)
                         array_df.append(create_df)
                     except Exception as e:
-                        exception_df = pd.DataFrame([[service_name, enpoint_method.text + " | " + enpoint_path.text, e]], columns=["API", "endpoint", "exception"])
+                        exception_df = pd.DataFrame(
+                            [
+                                [service_name, api.text, enpoint_method.text + " | " + enpoint_path.text, e]
+                            ]
+                            ,columns=["service", "API", "endpoint", "exception"]
+                        )
                         exception_df.to_csv("exception/" + api.text + ".txt", sep='\t', index=False)
                         continue
                 else:
